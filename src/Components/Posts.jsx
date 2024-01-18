@@ -1,6 +1,7 @@
 import { Favorite, FavoriteBorder, MoreVert, Share } from '@mui/icons-material'
 import { Avatar, Card, CardActions, CardContent, CardHeader, CardMedia, Checkbox, IconButton, Typography } from '@mui/material'
 import React from 'react'
+import cardHeadImg from "../image/avatar (1).jpg"
 
 
 const Posts = (props) => {
@@ -9,7 +10,7 @@ const Posts = (props) => {
          <Card sx={{margin:5}}>
         <CardHeader
           avatar={
-            <Avatar sx={{ bgcolor: "red" }} aria-label="recipe" src="./src/image/avatar (1).jpg">
+            <Avatar sx={{ bgcolor: "red" }} aria-label="recipe" src={cardHeadImg}>
               
             </Avatar>
           }

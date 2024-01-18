@@ -20,6 +20,7 @@ import {
     styled,
   } from "@mui/material";
   import React, { useState } from "react";
+  import addImage from "../image/avatar (1).jpg"
   
   const ModalStyle = styled(Modal)({
     display: "flex",
@@ -73,7 +74,7 @@ import {
               <Avatar
                 sx={{ width: 30, height: 30 }}
                 alt="Remy Sharp"
-                src="./src/image/avatar (1).jpg"
+                src={addImage}
               />
               <Typography fontWeight={500} variant="span">
                 Shez joi

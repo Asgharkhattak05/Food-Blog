@@ -1,6 +1,7 @@
 import { Mail, Notifications } from "@mui/icons-material";
 import FlutterDashIcon from "@mui/icons-material/FlutterDash";
 import DinnerDiningIcon from '@mui/icons-material/DinnerDining';
+import logo from "../image/avatar (1).jpg"
 import {
   AppBar,
   Avatar,
@@ -77,10 +78,10 @@ const Navbar = () => {
             <Avatar
               
               onClick={e => setOpen(true)}
-              sx={{ cursor:"pointer", width: "30px", marginBottom: "8px", height: "30px" }} alt="Remy Sharp" src="./src/image/avatar (1).jpg" />
+              sx={{ cursor:"pointer", width: "30px", marginBottom: "8px", height: "30px" }} alt="Remy Sharp" src={logo} />
           </Icons>
           <ResBox onClick={e => setOpen(true)}>
-            <Avatar sx={{ width: "30px", height: "30px" }} alt="Remy Sharp" src="./src/image/avatar (1).jpg"/>
+            <Avatar sx={{ width: "30px", height: "30px" }} alt="Remy Sharp" src={logo}/>
             <Typography variant="span">
               hSez
             </Typography>
